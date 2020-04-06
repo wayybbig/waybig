@@ -1,0 +1,155 @@
+/*for font #8BE6B0
+for headings #8AA9FF or #33691E*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+}
+
+/****************************HEADING*****************/
+h1, h2 {
+  color: #EF5350;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Clicker Script', cursive;
+}
+
+h2, h3 {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+.programmer {
+  font-weight: 100;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+h3 {
+  color: #EF7A8B;
+}
+p{
+  color: #696969;
+  line-height: 2;
+}
+/*****************************TOP CONTAINER****************/
+.top-container {
+  background-color: #F3FCFD;
+}
+
+.top-cloud {
+  margin-top: 50px;
+  position: relative;
+  left: 340px;
+  height: 60px;
+  width: auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 350px;
+  left: 240px;
+  height: 60px;
+  width: auto;
+}
+
+.ballon {
+  height: 500px;
+  width: auto;
+}
+
+/*****************************MIDDLE**********************/
+.middle-container {
+  padding-top: 100px;
+  margin-bottom: 80px;
+}
+hr{
+    border: dotted rgba(187, 187, 185, 0.75) 5px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+
+}
+
+.my-profile {
+  height: 250px;
+  width: auto;
+  border-radius: 200px;
+}
+
+.python {
+  width: 30%;
+  height: 140px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 120px;
+  position: relative;
+  top: 10px;
+}
+
+.coding {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+/*****************************BOTTOM***********************/
+.bottom-container {
+  padding: 30px 0 10px 0;
+  background-color: #D81C38;
+}
+
+a {
+  text-decoration: none;
+  color: #EF7A8B;
+  font-family: 'Lora', serif;
+  margin: 20px 20px;
+
+}
+a:hover{
+  color: rgb(235, 209, 209);
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 0 auto 50px auto;
+}
+.btn{
+  color: rgb(230, 230, 230);
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+  padding: 15px;
+  text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background: rgb(191, 30, 20);
+  background: -moz-linear-gradient(90deg, rgb(191, 30, 20) 30%, rgb(211, 20, 20) 61%);
+  background: -webkit-linear-gradient(90deg, rgb(191, 30, 20) 30%, rgb(211, 20, 20) 61%);
+  background: -o-linear-gradient(90deg, rgb(191, 30, 20) 30%, rgb(211, 20, 20) 61%);
+  background: -ms-linear-gradient(90deg, rgb(191, 30, 20) 30%, rgb(211, 20, 20) 61%);
+  background: linear-gradient(0deg, rgb(191, 30, 20) 30%, rgb(211, 20, 20) 61%);
+  -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+
+}
